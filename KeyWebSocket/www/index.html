@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>key-controler</title>
+	<style type="text/css">
+	body {
+		background-color: rgb(0,0,0);
+	}
+
+	#inputs {
+		position: absolute;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: stretch;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 200px;
+	}
+
+	.input_button {
+		margin: 5px;
+		#flex-grow: 1;
+		width: 100%;
+		font-size: 24px;
+		color: rgb(250,250,255);
+		background-color: rgba(24,0,0);
+		border-style: solid;
+		border-width: 4px;
+		border-color: rgba(255,64,64);
+	}
+
+	.input_button_canvas {
+		width: 100%;
+		height: 100%;
+	}
+	</style>
+	<script src="main.js"></script>
+</head>
+<body>
+	<div id="inputs">
+		<div class="input_button" id="backward_button">
+		    <canvas class="input_button_canvas" id="backward_button_canvas">
+		</div>
+		<div class="input_button" id="playStop_button">
+		    <canvas class="input_button_canvas" id="playStop_button_canvas">
+		</div>
+		<div class="input_button" id="forward_button">
+		    <canvas class="input_button_canvas" id="forward_button_canvas">
+		</div>
+	</div>
+</body>
+</html>

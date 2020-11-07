@@ -1,0 +1,3 @@
+[submodule "KeyWebSocket/thirdparty/websocketpp"]
+	path = KeyWebSocket/thirdparty/websocketpp
+	url = https://github.com/zaphoyd/websocketpp.git
