@@ -7,7 +7,7 @@
 Config::Config()
 	: hostnames()
 	, http_port(8080)
-	, websocket_port(51234)
+	, websocket_port(50001)
 {
 }
 
